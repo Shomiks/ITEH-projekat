@@ -9,6 +9,7 @@
 
 		'"id"'.':"'.$id.'"'
 		.'}]';
+		    
     $curl_zahtev = curl_init("http://localhost/projekat/mojprojekat/rest/klijent.json");
 		curl_setopt($curl_zahtev, CURLOPT_POST, TRUE);
 		curl_setopt($curl_zahtev, CURLOPT_POSTFIELDS, $parameters);
