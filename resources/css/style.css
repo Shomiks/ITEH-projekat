@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: gray;
+  padding-left: 20%;
+  opacity: 0.6;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover,.dropbtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    font-size: 80%;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px !important;
+    border: none;
+    outline: none;
+    color:white;
+    padding: 14px 16px;
+    background-color:inherit;
+    font: inherit;
+    margin: 0;
+}
+
+
+
+
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .dropdown {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  #result h3{
+    font-size: 16px;
+  }
+
+  #caption{
+  margin-top: -10em;
+  padding-top: 0px;
+  margin-left: 6%;
+}
+  #caption3{
+    margin-top: 5em;
+  padding-top: 0px;
+  margin-left: 6%;
+}
+#caption5{
+    margin-top: 15em;
+    margin-left: 5em;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    background-color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    background-color: black;
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+html{
+     font-size: 20px;
+    font-weight: 300;
+     text-rendering: optimizeLegibility;
+}
+
+
+header{
+    height: 100vh;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.22)),url(img/ordinacija.jpg);
+     background-size: cover;
+    background-position: center;
+    color:white;
+
+}
+footer{
+    font-size: 80%;
+    background-color: black;
+    color: #aeb1b7;
+
+}
+h3{
+    font-size: 140%;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    color: black;
+    text-transform: uppercase;
+  letter-spacing: 1px;
+    word-spacing: 2px;
+  text-align: center;
+    text-decoration: none;
+
+}
+
+
+
+.sec{
+    background-image: url(img/iza.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.row{
+    position: relative;
+    margin-left: 10%;
+}
+
+#drugi{
+    width: 300px;
+}
+#prvi{
+    width: 300px;
+    margin-left: 5%;
+    margin-right: 0;
+}
+
+
+
+
+#caption{
+    z-index: 50;
+    position: absolute;
+   top: 20%;
+  margin-left: 6%;
+    text-align: center;
+
+}
+#caption2{
+      z-index: 50;
+    position: absolute;
+   top: 70%;
+     margin-left: 6%;
+    text-align: center;
+
+}
+#caption3{
+ position: absolute;
+        text-align: center;
+    top: 40%;
+    padding-left: 6%;
+
+}
+#caption4{
+ position: absolute;
+       top: 20%;
+  margin-left: 5%;
+    text-align: center;
+
+}
+#caption5{
+    z-index: 50;
+    position: absolute;
+   top: 65%;
+     margin-left: 5%;
+    text-align: center;
+
+}
+#drugi #pi {
+    height: 410px;
+}
+#pi{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    margin-bottom: 10px;
+    overflow: hidden;
+          border-radius: 0.35rem;
+
+}
+#pi p a{
+    text-decoration: none;
+    color: #eb1fe4;
+}
+#pi img{
+    opacity: 0.5;
+    width:100%;
+    height: 100%;
+    transition: opacity 0.2s, transform 0.5s;
+    transform: scale(1.2);
+}
+
+#pi img:hover{
+    opacity: 0.7;
+    transform: scale(1);
+
+}
+.long-copy{
+line-height: 145%;
+  width: 60%;
+  margin-left: 25%;
+  color: black;
+    margin-bottom: 50px;
+}
+
+#naplatalista{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 11%;
+}
+#naplata{
+    display: inline-block;
+    margin-left: 50px;;
+    width: 13.333%;
+}
+#autor{
+    height: 150px;
+    margin-left: 15%;
+    border-radius: 200px;
+}
+#autortxt{
+    margin-right: 40%;
+    text-align: center;
+}
+hr.style13 {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #084260 inset;
+}
+#fotnav{
+    text-decoration: none;
+}
+#dodajslika{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: right;
+
+}
+#dod{
+    width: 80%;
+    margin-left: 10%;
+}
+#dodajslika2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+
+}
+#head{
+    width: 60%;
+    margin-left: 25%;
+    color: #e01c1c;
+}
+#head:after{
+    display: block;
+  height: 4px;
+  background-color: #6a2020;
+  content: " ";
+    width: 50%;
+    margin-left: 20%;
+}

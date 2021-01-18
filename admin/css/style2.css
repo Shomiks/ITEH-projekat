@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(img/ordinacija.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: 24px;
+
+}
+h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 130%;
+
+}
+#funkcije{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+#narucioci{
+    width: 200px;
+    padding: 10px;
+    color: white;
+    background-color: #350b60;
+    font-size: 18px;
+    border-radius: 20px;
+        border: 3px solid #350b60;
+
+}
+
+#result{
+    margin-top: 100px;
+
+}
