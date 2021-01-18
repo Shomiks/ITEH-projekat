@@ -13,7 +13,7 @@ class Database {
     private $zakazivanje=false;
      private $korisnik=false;
 
-
+ 
 	function __construct($dbname)
 	{
 		$this->$dbname = $dbname;
